@@ -57,10 +57,6 @@ PRODUCT_PACKAGES += \
 # wifi
 PRODUCT_PACKAGES += \
 	lib_driver_cmd_mtk
-	
-	
-PRODUCT_PACKAGES += \
-    libbt-vendor_mtk
 
 DEVICE_PACKAGE_OVERLAYS += device/amazon/ford/overlay
 

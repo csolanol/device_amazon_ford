@@ -13,7 +13,7 @@
 #
 
 ifneq ($(BOARD_HAVE_BLUETOOTH_MTK),)
-
+$(warning Build libbt-vendor-mtk...)
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
