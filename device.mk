@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
     frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
 
-$(call inherit-product, device/common/gps/gps_us_supl.mk)
+#$(call inherit-product, device/common/gps/gps_us_supl.mk)
 $(call inherit-product-if-exists, vendor/amazon/ford/ford-vendor.mk)
 
 PRODUCT_PACKAGES += \
@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
 # wifi
 PRODUCT_PACKAGES += \
 	lib_driver_cmd_mtk
+	
+	
+PRODUCT_PACKAGES += \
+    libbt-vendor_mtk
 
 DEVICE_PACKAGE_OVERLAYS += device/amazon/ford/overlay
 

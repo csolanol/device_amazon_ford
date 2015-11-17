@@ -59,6 +59,8 @@ WIFI_DRIVER_FW_PATH_STA:=STA
 WIFI_DRIVER_FW_PATH_AP:=AP
 WIFI_DRIVER_FW_PATH_STA:=P2P
 
+TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := device/amazon/ford/releasetools/ota_from_target_files
+
 # BlueTooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_MTK := true
@@ -114,7 +116,7 @@ TARGET_PREBUILT_RECOVERY_KERNEL := device/amazon/ford/kernel
 TARGET_RECOVERY_INITRC := device/amazon/ford/recovery/root/init.rc
 TARGET_RECOVERY_FSTAB := device/amazon/ford/recovery/root/recovery.fstab
 RECOVERY_FSTAB_VERSION := 2
-TW_THEME := landscape_mdpi
+TW_THEME := portrait_mdpi
 #TWRP_EVENT_LOGGING := true
 RECOVERY_TOUCHSCREEN_SWAP_XY := true
 #RECOVERY_GRAPHICS_USE_LINELENGTH := true
