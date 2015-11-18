@@ -1,4 +1,4 @@
-ui_print("");
-ui_print("wpa_supplicant & framework symlink");
+mount("ext4", "EMMC", "/dev/block/platform/mtk-msdc.0/by-name/system", "/system", "max_batch_time=0,commit=1,data=ordered,barrier=1,errors=panic,nodelalloc");
 symlink("/system/xbin/wpa_supplicant", "/system/bin/wpa_supplicant");
 symlink("/system/framework/svc.jar", "/system/framework/fireossvc.jar");
+unmount("/system");
