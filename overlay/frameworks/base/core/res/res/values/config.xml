@@ -40,7 +40,6 @@
          autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
-    <bool name="config_plugTurnsOnScreen">true</bool>
     <bool name="config_unplugTurnsOnScreen">true</bool>
     <!-- Make things go fast -->
     <bool name="config_ui_enableFadingMarquee">false</bool>
