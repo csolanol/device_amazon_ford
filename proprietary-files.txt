@@ -66,7 +66,9 @@ lib/libblisrc.so
 lib/libbwc.so
 lib/libcamdrv.so
 lib/libcamera_client_mtk.so
+lib/libcamera_client.so
 lib/libcameracustom.so
+lib/libcamera_metadata.so
 lib/libcam.exif.so
 lib/libcam_utils.so
 lib/libcam.utils.so
@@ -81,6 +83,7 @@ lib/libcam_hwutils.so
 lib/libcam_mmp.so
 lib/libcam.paramsmgr.so
 lib/libcam_platform.so
+lib/libcameraservice.so
 lib/libcam.utils.sensorlistener.so
 lib/libPanoramaBCPlugin.so
 lib/libcvsd_mtk.so
