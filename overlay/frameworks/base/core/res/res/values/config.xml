@@ -43,4 +43,7 @@
     <bool name="config_unplugTurnsOnScreen">true</bool>
     <!-- Make things go fast -->
     <bool name="config_ui_enableFadingMarquee">false</bool>
+    <!-- Maximum number of supported users -->
+    <bool name="config_enableMultiUserUI">true</bool>
+    <integer name="config_multiuserMaximumUsers">4</integer>
 </resources>
