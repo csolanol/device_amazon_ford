@@ -37,7 +37,7 @@ lib/libGLESv3.so
 lib/libMali.so
 lib/libmtk_mali_user.so
 lib/libwpa_client.so
-lib/hw/audio.a2dp.default.so
+#lib/hw/audio.a2dp.default.so
 lib/hw/audio.primary.mt8127.so
 lib/hw/camera.mt8127.so
 lib/hw/gralloc.mt8127.so
@@ -50,8 +50,7 @@ lib/hw/sensors.mt8127.so
 lib/hw/thermal.mt8127.so
 lib/modules/ufsd.ko
 lib/libdpframework.so
-#lib/libgralloc_extra.so
-lib/libion.so
+lib/libgralloc_extra.so
 lib/libtz_uree.so
 lib/liburee_meta_drmkeyinstall_v2.so
 lib/libaudiocompensationfilter.so
@@ -133,7 +132,7 @@ lib/libjni_pinyinime.so
 lib/libjni_pq.so
 lib/libJpgDecPipe.so
 lib/libJpgEncPipe.so
-lib/libmhalImageCodec.so
+#lib/libmhalImageCodec.so
 lib/libmp2dec_sb.ca7.so
 lib/libmp4enc_sa.ca7.so
 lib/libmpoencoder.so
@@ -154,14 +153,14 @@ lib/libslatium.so
 lib/libsmartsuspendmanagerservice.so
 lib/libsmartvolume.so
 lib/libstagefrighthw.so
-lib/libSwJpgCodec.so
+#lib/libSwJpgCodec.so
 lib/libthermalservice.so
 lib/libtrapz.so
 lib/lib_uree_mtk_crypto.so
 lib/lib_uree_mtk_video_secure_al.so
 lib/libvc1dec_sa.ca7.so
 lib/libvcodecdrv.so
-lib/libvcodec_oal.so
+#lib/libvcodec_oal.so
 lib/libvcodec_utility.so
 lib/libvp8dec_sa.ca7.so
 lib/libvp9dec_sa.ca7.so
