@@ -10,7 +10,7 @@
 /dev/block/platform/mtk-msdc.0/by-name/recovery /recovery   emmc      defaults        defaults
 /dev/block/mmcblk0boot0                         /boot0      emmc      defaults        defaults
 /dev/block/platform/mtk-msdc.0/by-name/system   /system     ext4      defaults        defaults
-/dev/block/platform/mtk-msdc.1/mmcblk1p1	/external_sd	vfat	flags=display="Micro SDcard";storage;wipeingui;removable
+#/dev/block/platform/mtk-msdc.1/mmcblk1p1	/external_sd	vfat	flags=display="Micro SDcard";storage;wipeingui;removable
 #/dev/block/platform/mt_usb/sda1			/ust-otg	vfat	flags=display="USB-OTG";storage;wipeingui;removable
 
 
