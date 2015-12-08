@@ -37,6 +37,8 @@ BOARD_KERNEL_CMDLINE :=
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 TARGET_PREBUILT_KERNEL := device/amazon/ford/kernel
+#TARGET_KERNEL_SOURCE := kernel/amazon/ford/
+#TARGET_KERNEL_CONFIG := ford_defconfig
 
 # Flags
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp

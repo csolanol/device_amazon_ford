@@ -57,7 +57,7 @@ $(call inherit-product-if-exists, vendor/amazon/ford/ford-vendor.mk)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media_profiles.xml:system/etc/media_profiles.xml \
-    
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default 

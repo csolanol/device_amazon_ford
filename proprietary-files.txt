@@ -64,6 +64,7 @@ lib/hw/memtrack.mt8127.so
 lib/hw/sensors.mt8127.so
 lib/hw/thermal.mt8127.so
 lib/modules/ufsd.ko
+lib/modules/vcodec_kernel_driver.ko
 lib/libdpframework.so
 lib/libgralloc_extra.so
 lib/libion.so
@@ -102,7 +103,7 @@ lib/libcam.exif.so
 lib/libcam_utils.so
 lib/libcam.utils.so
 lib/libcamera_client.so
-lib/libcameraservice.so
+#lib/libcameraservice.so
 lib/libcamera_metadata.so
 lib/libcamalgo.so
 lib/libcam.camadapter.so
