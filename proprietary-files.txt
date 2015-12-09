@@ -29,10 +29,6 @@ etc/firmware/WIFI_RAM_CODE_8127
 etc/firmware/WMT_SOC.cfg
 etc/bluetooth/bt_did.conf
 etc/bluetooth/bt_stack.conf
-#etc/.tp/.ht120.mtc
-#etc/.tp/thermal.conf
-#etc/.tp/thermal.off.conf
-#etc/.tp/thermal.policy.conf
 
 #lib
 lib/egl/libEGL_mali.so
