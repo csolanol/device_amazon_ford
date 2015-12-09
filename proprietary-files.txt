@@ -37,7 +37,6 @@ lib/egl/libGLESv2_mali.so
 lib/libGLESv3.so
 lib/libMali.so
 lib/libmtk_mali_user.so
-
 lib/hw/audio.primary.mt8127.so
 lib/hw/camera.mt8127.so
 lib/hw/gralloc.mt8127.so
@@ -53,9 +52,7 @@ lib/libdpframework.so
 lib/libgralloc_extra.so
 lib/libtz_uree.so
 lib/liburee_meta_drmkeyinstall_v2.so
-
 lib/libplayready.so
-
 lib/libaudiocompensationfilter.so
 lib/libaudiocomponentengine.so
 lib/libaudiocustparam.so
@@ -103,7 +100,6 @@ lib/libcam_mmp.so
 lib/libcam.paramsmgr.so
 lib/libcam_platform.so
 lib/libcam.utils.sensorlistener.so
-
 lib/lib3a.so
 lib/libaed.so
 lib/libAIVMemoryAllocator.so
@@ -111,14 +107,12 @@ lib/libAIVSecureRenderer.so
 lib/libaudio-resampler.so
 lib/libblueshift-audioprocessing.so
 lib/libblueshift-opus.so
-
 lib/libbluetoothem_mtk.so
 lib/libbluetooth_hw_test.so
 lib/libbluetooth_mtk_pure.so
 lib/libbluetooth_mtk.so
 lib/libbluetooth_relayer.so
 lib/libbt-vendor.so
-
 lib/libcpueaterJNI.so
 lib/libdrmmtkutil.so
 lib/libdrmplayreadydecryptor.so
@@ -148,14 +142,12 @@ lib/libmp4enc_sa.ca7.so
 lib/libmpoencoder.so
 lib/libmpo.so
 lib/libMPS.so
-
 lib/libmtkjpeg.so
 lib/libMtkOmxAIVPlayer.so
 lib/libMtkOmxCore.so
 lib/libMtkOmxMp3Dec.so
 lib/libMtkOmxVdec.so
 lib/libMtkOmxVenc.so
-
 lib/libnvram_daemon_callback.so
 lib/libramStressJNI.so
 lib/libsmartsuspendmanagerservice.so
@@ -181,7 +173,9 @@ vendor/etc/audio_policy.conf
 vendor/lib/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib/mediadrm/libplayreadydrmplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib/libwvm.so
 vendor/lib/libwvdrm_L3.so
+vendor/lib/libWVStreamControlAPI_L3.so
 vendor/smartvolume/ford/anlg_dock_headset.csv
 vendor/smartvolume/ford/aux_digital.csv
 vendor/smartvolume/ford/bt_a2dp.csv
