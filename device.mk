@@ -81,9 +81,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ebtables \
     ethertypes
-#OMX
-PRODUCT_PACKAGES += \
-    libdashplayer 
      
 PRODUCT_PACKAGES += \
     libemoji
