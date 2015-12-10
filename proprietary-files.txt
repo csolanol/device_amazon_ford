@@ -12,7 +12,6 @@ bin/nvram_agent_binder
 bin/nvram_daemon
 bin/thermald
 bin/thermal_manager
-bin/vitals_collection_agent
 
 #etc
 etc/media_codecs_google_audio.xml
@@ -38,6 +37,7 @@ lib/egl/libGLESv2_mali.so
 lib/libGLESv3.so
 lib/libMali.so
 lib/libmtk_mali_user.so
+lib/hw/hwcomposer.mt8127.so
 lib/hw/audio.primary.mt8127.so
 lib/hw/camera.mt8127.so
 lib/hw/gralloc.mt8127.so
@@ -85,9 +85,6 @@ lib/libcameracustom.so
 lib/libcam.exif.so
 lib/libcam_utils.so
 lib/libcam.utils.so
-lib/libcamera_client.so
-lib/libcameraservice.so
-lib/libcamera_metadata.so
 lib/libcamalgo.so
 lib/libcam.camadapter.so
 lib/libcam.campipe.so
@@ -198,3 +195,4 @@ xbin/memalloc
 xbin/mkexfat
 xbin/start-ufsd
 xbin/trapz
+xbin/vitals_collection_agent
