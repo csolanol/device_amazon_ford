@@ -12,6 +12,7 @@ bin/nvram_agent_binder
 bin/nvram_daemon
 bin/thermald
 bin/thermal_manager
+bin/vitals_collection_agent
 
 #etc
 etc/media_codecs_google_audio.xml
@@ -47,7 +48,6 @@ lib/hw/perfboost.mt8127.so
 lib/hw/sensors.mt8127.so
 lib/hw/thermal.mt8127.so
 lib/modules/ufsd.ko
-lib/modules/vcodec_kernel_driver.ko
 lib/libdpframework.so
 lib/libgralloc_extra.so
 lib/libtz_uree.so

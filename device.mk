@@ -94,7 +94,9 @@ PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/.ht120.mtc:system/etc/.tp/.ht120.mtc \
      $(LOCAL_PATH)/configs/thermal.off.conf:system/etc/.tp/thermal.off.conf
 
-
+#Hack to set selinux permissive on boot.
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/debuggerd64:system/bin/debuggerd64
 
 PRODUCT_COPY_FILES += \
      $(LOCAL_KERNEL):kernel
