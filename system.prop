@@ -60,3 +60,7 @@ persist.sys.usb.config=mtp
 # add support for USB storage type
 persist.sys.isUsbOtgEnabled=1
 
+# Wireless Display
+persist.sys.wfd.virtual=0
+persist.debug.wfd.enable=1
+
