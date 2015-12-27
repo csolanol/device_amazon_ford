@@ -1,7 +1,7 @@
 ## Specify phone tech before including full_phone
 
 # Release name
-PRODUCT_RELEASE_NAME := ford
+#PRODUCT_RELEASE_NAME := ford
 
 # Inherit some common SLIM stuff.
 $(call inherit-product, vendor/slim/config/common_full_tablet_wifionly.mk)
