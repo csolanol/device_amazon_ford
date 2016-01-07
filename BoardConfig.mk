@@ -17,6 +17,8 @@ TARGET_BOOTLOADER_BOARD_NAME := ford
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+TARGET_USE_BUILT_BOOTIMAGE := device/amazon/ford/boot.img
+
 # Architecture
 TARGET_ARCH := arm
 TARGET_CPU_VARIANT := cortex-a7
